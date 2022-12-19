@@ -28,4 +28,6 @@ CALL mysql.rds_reset_external_master;
 
 
 
-
+##### Error 
+After mysql dump chnage deliter value
+sed -i 's/root`@`localhost/root`@`ilms.c8le3siaf5jx.ap-south-1.rds.amazonaws.com/g' input.txt
