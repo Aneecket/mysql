@@ -25,6 +25,7 @@ CALL mysql.rds_start_replication;
 CALL mysql.rds_stop_replication;
 CALL mysql.rds_reset_external_master;
 
+CALL mysql.rds_replica_status\G
 
 
 
